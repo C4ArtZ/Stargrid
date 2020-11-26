@@ -46,8 +46,8 @@ body {
     grid-row: 1 / 2;
 }
 
-.container > div:hover {
-    transform: scale(.98);
+.clickable:hover {
+    transform: scale(.97);
 }
 
 #time {
