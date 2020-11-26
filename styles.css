@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --wp: url('./wallpaper/day.jpg');
+    --wp: url('./wallpaper/day.jpg'); /*used as fallback if wallpaper.js fails*/
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #333;
+    background-color: rgba(255, 255, 255, 0.671);
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -47,8 +47,10 @@ body {
 }
 
 .clickable:hover {
-    transform: scale(.97);
+    transform: scale(.98);
+    transition-timing-function: ease-in-out;
 }
+
 
 #time {
     font-size: 5em;
@@ -68,9 +70,11 @@ a {
 
 }
 
-img {
+.clickable img {
     height: auto;
     width: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 
