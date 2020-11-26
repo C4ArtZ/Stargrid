@@ -1,5 +1,6 @@
 # Stargrid ✨
 ## Jumpstart your browsing experience! 🚀
+[Hero Image](hero.png)
 
 ---
 
