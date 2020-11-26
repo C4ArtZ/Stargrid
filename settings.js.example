@@ -3,10 +3,11 @@
 // This is your openweathermap API key! https://openweathermap.org/
 var weather_apikey = "YourAPIKey";
 
-// This is the location openweathermap will use
+
 // You can use https://www.latlong.net/ to get it!
-var weather_latitude = 12.345;
-var weather_longitude = 12.345;
+var weather_latitude = 12.3;
+var weather_longitude = 6.29;
+
 
 
 //Links are in this order
@@ -16,33 +17,37 @@ var weather_longitude = 12.345;
 //Make sure to have exactly 12 elements in each array. You will have to modify the code, in order to get more or less links.
 
 var links = [
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/",
-    "https://example.com/"
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
+    "https://example.com",
 ];
 
 var icons = [
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png",
-    "bitwarden.png"
-
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png",
+    "example.png"
 ];
 
+//wallpapers
+var wallpaper_sunrise = "sunrise.jpg";
+var wallpaper_day = "day.jpg";
+var wallpaper_sunset = "sunset.jpg";
+var wallpaper_night = "night.jpg";
