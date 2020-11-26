@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stargrid</title>
+</head>
+<body>
+    <div class="container">
+
+        <!--Clock-->
+        <div class="card">
+            <h1 id = time></h1>
+            <hr>
+            <h3 id= date></h3>
+        </div>
+
+        <!--Weather-->
+        <div class="card">
+            <img
+                id="weather-icon" 
+            />
+            <h1 id = "weather-temp"></h1>
+            <br>
+            <h3 id = "weather-desc"></h3>
+        </div>
+
+
+        <!--Link section-->
+        <!--Links and icons are automaticaly set by init.js-->
+        <div class="card">
+            <a 
+                id = "link1"
+            >
+            <img
+                id = "icon1"
+            />
+            </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link2"
+            >
+            <img 
+                id = "icon2"
+            />
+            </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link3"
+            >
+            <img 
+                id = "icon3"
+            />
+            </a>
+        </div>
+
+        <div class="card">
+            <a
+                id = "link4"
+            >
+            <img
+                id = "icon4"
+            />
+        </a> 
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link5"
+            >
+            <img
+                id = "icon5"
+            />
+        </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link6"
+            >
+            <img 
+                id = "icon6"
+            />
+        </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link7"
+            >
+            <img
+                id = "icon7"
+            />
+        </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link8"
+            >
+            <img
+                id = "icon8"
+            />
+        </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link9"
+            >
+            <img
+                id = "icon9"
+            />
+        </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link10"
+            >
+            <img
+                id = "icon10"
+            />
+        </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link11"
+            >
+            <img
+                id = "icon11"
+            />
+        </a>
+        </div>
+
+        <div class="card">
+            <a 
+                id = "link12"
+            >
+            <img
+                id = "icon12"
+            />
+        </a>
+        </div>
+        <!--Link section ends here-->
+
+    </div>
+
+    <script src="settings.js"></script> <!--contains global settings-->
+    <script src="init.js"></script> <!--sets links and icons based on settings.js-->
+    <script src="time.js"></script> <!--contains clock script-->
+    <script src="wallpaper.js"></script> <!--script to change the wallpaper based on time-->
+    <script src="weather.js"></script> <!--get's weather from openweathermap and sets icon and text-->
+</body>
+</html>
