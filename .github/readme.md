@@ -1,7 +1,7 @@
 # Stargrid ✨
 ## Jumpstart your browsing experience! 🚀
-![Hero Image](hero.png)
-
+![Hero Image](hero.png)<br/>
+Wallpaper credit to [Matt Vince](https://www.mattvince.com/)
 ---
 
 ## Features:
@@ -26,23 +26,23 @@
 ## FAQ
 
 ### Can I add my own icons?
-Sure! Just make sure they have a resolution of 48x48px and save them to Startgrid/icons/links/.
+Sure! Just make sure they have a resolution of 48x48px and save them to Startgrid/icons/links/.<br/>
 You can now edit your setting.js file to use the correct file.
 
 ### How do I change the background?
-You can replace the files inside Startgrid/wallpaper/ with any image you like.
+You can replace the files inside Startgrid/wallpaper/ with any image you like.<br/>
 Just make sure to name them "day.png", "night.png", "sunrise.png" and "sunset.png".
 
 ### Can you add feature xyz?
 Maybe. You can let me know by submitting a feature request via the "Issues" tab.
 
 ### I don't need 12 links. / I need more than 12!
-At the moment there are always 12 links. I am working on a way to make this dynamic.
-In the meantime you can just have less than 12 elements in your links / icons inside the settings.js file.
+At the moment there are always 12 links. I am working on a way to make this dynamic.<br/>
+In the meantime you can just have less than 12 elements in your links / icons inside the settings.js file.<br/>
 This might however lead to some strange behavior in the future.
 
 ### When does the wallpaper change?
-07:00 - 10:59 : sunrise.png
-11:00 - 16:59 : day.png
-17:00 - 20:59 : sunset
+07:00 - 10:59 : sunrise.png<br/>
+11:00 - 16:59 : day.png<br/>
+17:00 - 20:59 : sunset<br/>
 21:00 - 06:59 : night.png
