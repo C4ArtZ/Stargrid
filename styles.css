@@ -51,6 +51,9 @@ body {
     transition-timing-function: ease-in-out;
 }
 
+.weather {
+    flex-direction: row;
+}
 
 #time {
     font-size: 5em;
