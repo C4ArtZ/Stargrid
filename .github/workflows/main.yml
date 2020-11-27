@@ -14,7 +14,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:     
   # This workflow contains a single job called "build"
-  build:
+  validate-html:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -28,6 +28,7 @@ jobs:
         # uses: Cyb3r-Jak3/html5validator-action@b57a5c742f5ff1c9f1f6ce00c919962aa6cfd4c7
         uses: Cyb3r-Jak3/html5validator-action@v0.4.3
         with:
+          # Document root
           root: ./
           # Checks css as well
           css: true # optional
