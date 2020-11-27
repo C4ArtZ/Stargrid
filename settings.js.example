@@ -63,6 +63,13 @@ var icons = [
 //                  //
 //////////////////////
 
+//Do you want the wallpaper to change based on time? (true / false)
+var wallpaper_dynamic = true; 
+
+//This wallpaper will be displayed when "wallpaper_dynamic" is set to false.
+var wallpaper_default = "default.jpg"
+
+//These wallpapers will be used when "wallpaper_dynamic" is set to true
 var wallpaper_sunrise = "sunrise.jpg";
 var wallpaper_day = "day.jpg";
 var wallpaper_sunset = "sunset.jpg";
