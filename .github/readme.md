@@ -5,7 +5,7 @@ Wallpaper credit to [Matt Vince](https://www.mattvince.com/)
 ---
 
 ## Features:
-- Replaces every new tab
+- Replaces Chrome's new tab
 - Clock with current date
 - Weather for one static location
 - 12 quick-links you can customize
@@ -23,15 +23,16 @@ Wallpaper credit to [Matt Vince](https://www.mattvince.com/)
 
 ---
 
-## FAQ
+## FAQ 🤔
 
-### Can I add my own icons?
-Sure! Just make sure they have a resolution of 48x48px and save them to Startgrid/icons/links/.<br/>
-You can now edit your setting.js file to use the correct file.
+### How do I add my own icons?
+Just add them to "Stargrid/icons/links/". Now add the filename + extension to your settings.js file.<br/>
+In my case I used the 48x48px icons from [materialdesignicons.com](https://materialdesignicons.com/) or made my own.<br/>
+Different resolutions might look strange. I am working on a fix for this.
 
-### How do I change the background?
-You can replace the files inside Startgrid/wallpaper/ with any image you like.<br/>
-Just make sure to name them "day.png", "night.png", "sunrise.png" and "sunset.png".
+### How do I add a background?
+Place your desired images inside the "Stargrid/wallpaper/" folder.<br/>
+Now reference them inside your settings.js. Remember to include the extension (.jpg / .png / etc.).
 
 ### Can you add feature xyz?
 Maybe. You can let me know by submitting a feature request via the "Issues" tab.
