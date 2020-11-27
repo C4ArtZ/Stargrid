@@ -28,5 +28,6 @@ jobs:
         # uses: Cyb3r-Jak3/html5validator-action@b57a5c742f5ff1c9f1f6ce00c919962aa6cfd4c7
         uses: Cyb3r-Jak3/html5validator-action@v0.4.3
         with:
+          root: Stargrid/
           # Checks css as well
           css: true # optional
