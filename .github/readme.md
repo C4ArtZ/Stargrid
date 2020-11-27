@@ -1,6 +1,6 @@
 # Stargrid ✨
 ## Jumpstart your browsing experience! 🚀
-![Hero Image](hero.png)<br/>
+![Hero Image](hero_27-11-2020.png)<br/>
 Wallpaper credit to [Matt Vince](https://www.mattvince.com/)
 ---
 
