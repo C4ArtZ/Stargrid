@@ -18,6 +18,15 @@ var weather_longitude = 6.7;
 
 //////////////////////
 //                  //
+//      Tiles       //
+//                  //
+//////////////////////
+
+var columns = 6; // Has to be an even number! | Default 6
+
+
+//////////////////////
+//                  //
 //      LINKS       //
 //                  //
 //////////////////////
