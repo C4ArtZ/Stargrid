@@ -39,9 +39,8 @@ Now reference them inside your settings.js. Remember to include the extension (.
 Maybe. You can let me know by submitting a feature request via the "Issues" tab.
 
 ### I don't need 12 links. / I need more than 12!
-At the moment there are always 12 links. I am working on a way to make this dynamic.<br/>
-In the meantime you can just have less than 12 elements in your links / icons inside the settings.js file.<br/>
-This might however lead to some strange behavior in the future.
+You can specify how many columns you want within your settings.js file.<br/>
+The total number of tiles is dictated by the number of links you specify.<br/>
 
 ### When does the wallpaper change?
 07:00 - 10:59 : sunrise.png<br/>

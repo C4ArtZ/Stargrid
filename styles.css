@@ -2,6 +2,11 @@
 
 :root {
     --wp: url('./wallpaper/day.jpg'); /*used as fallback if wallpaper.js fails*/
+    --columns: 6;
+    --clock-start: 1;
+    --clock-end: 4;
+    --weather-start: 4;
+    --weather-end: 7;
 }
 
 * {
@@ -18,8 +23,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    /*gap: 2px;*/
+    grid-template-columns: repeat(var(--columns), 1fr);
     height: 100vh;
 }
 
@@ -38,11 +42,11 @@ body {
     transition: all .25s;
 }
 .container > div:nth-of-type(1) {
-    grid-column: 1 / 4;
+    grid-column: var(--clock-start) / var(--clock-end);
     grid-row: 1 / 2;
 }
 .container > div:nth-of-type(2) {
-    grid-column: 4 / 7;
+    grid-column: var(--weather-start) / var(--weather-end);
     grid-row: 1 / 2;
 }
 
