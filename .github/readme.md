@@ -9,12 +9,13 @@ Wallpaper credit to [Matt Vince](https://www.mattvince.com/)
 - Clock with current date
 - Weather for one static location
 - 12 quick-links you can customize
+- Big buttons for frustration free touchscreen use
 
 ---
 
 ## How can I get this?
 1. Download this repo.
-2. rename "settings.js.example" to "settings.js".
+2. Rename "settings.js.example" to "settings.js".
 3. Replace the placholders inside settings.js with your own information.
 4. Add your own icons and wallpapers.
 5. Open chrome://extensions/ with Google Chrome.
@@ -47,3 +48,6 @@ This might however lead to some strange behavior in the future.
 11:00 - 16:59 : day.png<br/>
 17:00 - 20:59 : sunset<br/>
 21:00 - 06:59 : night.png
+
+### I don't want / need a dynamic wallpaper!
+There is an option in the settings.js file. Simply set "wallpaper_dynamic" to false.
