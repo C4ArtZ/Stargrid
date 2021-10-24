@@ -2,4 +2,4 @@
 *
 # Except these files
 !.gitignore
-!unknown.png
+!../../../stardash/assets/icons/unknown.png
